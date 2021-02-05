@@ -70,7 +70,7 @@ void add_patient()
         strcat(patients[loop].patient_name, secondName);
         puts("PatientGender");
         scanf("%s", patients[loop].patient_gender);
-        puts("Date:forexample 01/25/2021 or 01-25-2021");
+        puts("Date:");
         scanf("%s", patients[loop].DOI);
         puts("Asymptomatic/NotAsymptomatic");
         scanf("%s", patients[loop].status);
